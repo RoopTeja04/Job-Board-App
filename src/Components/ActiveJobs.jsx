@@ -17,7 +17,7 @@ const ActiveJobs = ({ data }) => {
                                     <div className="flex flex-col items-start space-y-4">
                                         <p className="text-3xl font-semibold text-white tracking-wide">{item.JobRole}</p>
                                         <p className="text-xl text-gray-300">{item.Company}</p>
-                                        <p className="text-lg text-gray-200">Salary: <span className="font-semibold">{item.Salary}</span></p>
+                                        <p className="text-lg text-gray-200">Salary: <span className="font-semibold">₹ {item.Salary} /-</span></p>
                                         <p className="text-lg text-gray-200">Exp: {item.Exp}</p>
                                         <p className="text-lg text-gray-200">Vacancies: <span className="font-semibold">{item.Vacancies}</span></p>
                                     </div>
